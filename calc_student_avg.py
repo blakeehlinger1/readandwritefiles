@@ -10,6 +10,8 @@ def main():
 
     outfile = open("student_avg.csv",'w')
 
+    outfile.write("name" + "," + "score1" + "," + "score2" + "," + "score3" + "," + "average" + "\n")
+
     for record in score_file:
        name = record[0]
        score1 = record[1]

@@ -10,7 +10,7 @@ def main():
 
     outfile = open("Employee_Bonus.csv", 'w')
 
-    #outfile.write("ID" + "," + "FirstName" + "," + "LastName" + "," + "Salary" + "," + "bonus" + "," + "TotalPay")
+    outfile.write("ID" + "," + "FirstName" + "," + "LastName" + "," + "Salary" + "," + "bonus" + "," + "TotalPay" + "\n")
 
     for record in emp_file:
         id_num = record[0]
